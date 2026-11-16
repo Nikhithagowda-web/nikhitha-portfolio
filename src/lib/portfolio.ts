@@ -3,7 +3,7 @@ import resumeAsset from "@/assets/Nikhitha_KP_Resume.pdf.asset.json";
 export const profile = {
   name: "Nikhitha K P",
   role: "Java Full Stack Developer",
-  location: "Mandya, Karnataka, India",
+  location: "Bengaluru, Karnataka, India",
   email: "nikhithasoftwaredeveloper@gmail.com",
   phone: "+91 93804 59259",
   phoneHref: "tel:+919380459259",
@@ -19,12 +19,28 @@ export const skillGroups = [
   {
     title: "Languages & Core",
     description: "Strong foundations in object-oriented design and data.",
-    skills: ["Java", "Core Java", "OOP", "SQL", "Collections", "Java 8 Streams", "Exception Handling"],
+    skills: [
+      "Java",
+      "Core Java",
+      "OOP",
+      "SQL",
+      "Collections",
+      "Java 8 Streams",
+      "Exception Handling",
+    ],
   },
   {
     title: "Backend",
     description: "Server-side applications, persistence and APIs.",
-    skills: ["Spring Boot", "Hibernate", "JDBC", "Servlets", "JSP", "REST APIs", "MVC Architecture"],
+    skills: [
+      "Spring Boot",
+      "Hibernate",
+      "JDBC",
+      "Servlets",
+      "JSP",
+      "REST APIs",
+      "MVC Architecture",
+    ],
   },
   {
     title: "Frontend",
@@ -34,7 +50,17 @@ export const skillGroups = [
   {
     title: "Database & Tools",
     description: "Data modelling, versioning and testing.",
-    skills: ["MySQL", "MySQL Workbench", "Git", "GitHub", "Postman", "Maven", "Apache Tomcat", "Eclipse", "VS Code"],
+    skills: [
+      "MySQL",
+      "MySQL Workbench",
+      "Git",
+      "GitHub",
+      "Postman",
+      "Maven",
+      "Apache Tomcat",
+      "Eclipse",
+      "VS Code",
+    ],
   },
 ];
 
@@ -82,7 +108,18 @@ export const projects: Project[] = [
       "Java Servlets + JDBC integrated with MySQL for users, products, carts and orders",
       "Deployed on Apache Tomcat with a Maven-based build",
     ],
-    tech: ["Java", "JSP", "Servlets", "JDBC", "MySQL", "HTML", "CSS", "JavaScript", "Maven", "Tomcat"],
+    tech: [
+      "Java",
+      "JSP",
+      "Servlets",
+      "JDBC",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Maven",
+      "Tomcat",
+    ],
     github: "https://github.com/Nikhithagowda-web",
     demo: "https://ai-powered-full-stack-e-commerce.onrender.com/",
   },
@@ -98,24 +135,18 @@ export const projects: Project[] = [
       "RESTful APIs built with Spring Boot and Hibernate over MySQL",
       "React frontend delivering near-real-time queue status updates",
     ],
-    tech: ["React.js", "Java", "Spring Boot", "Hibernate", "MySQL", "REST APIs", "Postman", "Maven"],
+    tech: [
+      "React.js",
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "MySQL",
+      "REST APIs",
+      "Postman",
+      "Maven",
+    ],
     github: "https://github.com/Nikhithagowda-web",
     demo: "https://smartqueue-frontend-u8zs.onrender.com/",
-  },
-  {
-    slug: "gym-manager",
-    title: "Gym Manager CLI – Membership and Subscription Tracking System",
-    tagline: "Command-line membership management",
-    period: "Jan 2026 – May 2026",
-    description:
-      "A Java console application for gyms to manage members, membership plans and subscriptions — with automatic expiry tracking and quick renewals.",
-    highlights: [
-      "Member record management with full CRUD operations",
-      "Membership plans, subscription expiry tracking and renewal workflow",
-      "Clean OOP design using Collections, JDBC and MySQL",
-    ],
-    tech: ["Java", "OOP", "Collections", "JDBC", "MySQL"],
-    github: "https://github.com/Nikhithagowda-web",
   },
 ];
 
@@ -151,7 +182,8 @@ export const certifications = [
   {
     title: "Web Design Course",
     issuer: "Udemy",
-    description: "Beginner-to-advanced training in HTML, CSS, responsive web design and website development.",
+    description:
+      "Beginner-to-advanced training in HTML, CSS, responsive web design and website development.",
   },
   {
     title: "Introduction to Artificial Intelligence",
