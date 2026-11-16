@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- All portfolio content (profile, projects, skills, experience, links) lives in `src/lib/portfolio.ts`; pages read from it so content edits happen in one place.
+- Each portfolio section is its own route (`/about`, `/skills`, `/projects`, `/resume`, `/contact`) for per-page SEO; shared header/footer wrap `<Outlet />` in `__root.tsx`.
+- The contact form validates with zod (`src/lib/contact.ts`) and opens a prefilled `mailto:`; no backend is used for messages.
